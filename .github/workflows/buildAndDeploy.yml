@@ -23,7 +23,7 @@ jobs:
                     node-version: 20
             -   run: npm ci
 
-            # Step 3: Copy js, compile scss, etc. with the Gulp build task
+            # Step 3: Optimize images, minify CSS, JS, HTML, etc. with the Gulp build task
             -   name: Run gulp build
                 run: gulp build
 
